@@ -1,7 +1,8 @@
 <template>
     <div >
-        <h1>Home</h1>
         <UButton>Button</UButton>
+        <ULink to="/login/operator">Login como operador</ULink>
+        <ULink to="/login/user">Login como solicitante</ULink>
     </div>
 </template>
 
